@@ -20,7 +20,7 @@ const Hero = () => {
           boost from AI. &#10024;
         </p>
         <div className="flex justify-center my-4">
-          <div className="bg-[#bb7ffc] px-6 py-2 text-white text-left rounded-lg border-b-4 border-violet-800 my-4 mx-4 w-48">
+          <div className="bg-[#8854c0] px-6 py-2 text-white text-left rounded-lg border-b-4 border-violet-800 my-4 mx-4 w-48">
             <p className="text-gray-300 text-sm">TEACHERS</p>
             <button className="text-lg">Sign Up for free</button>
           </div>
