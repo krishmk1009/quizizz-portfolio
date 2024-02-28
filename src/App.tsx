@@ -5,6 +5,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Client from './components/Client'
 import Stats from './components/Stats'
+import Cta from './components/Cta'
+import Feature from './components/Feature'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +17,8 @@ function App() {
       <Hero />
       <Client />
       <Stats />
+      <Cta />
+      <Feature />
     </>
   )
 }
