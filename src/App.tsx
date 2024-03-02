@@ -7,6 +7,7 @@ import Client from './components/Client'
 import Stats from './components/Stats'
 import Cta from './components/Cta'
 import Feature from './components/Feature'
+import Project from './components/Project'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <Stats />
       <Cta />
       <Feature />
+      <Project />
     </>
   )
 }
