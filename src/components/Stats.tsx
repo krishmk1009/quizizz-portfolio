@@ -5,13 +5,15 @@ const Stats = () => {
   return (
     <div className="bg-[#f7f7f7] py-20 my-20 text-center">
       <div className="max-w-5xl mx-auto">
-        <p className="text-[22px]">Loved across 150+ Countries</p>
-        <h3 className="text-[40px] my-3 font-poppins">
-          Trusted by teachers in{" "}
-          <span className="text-[#8854c0]">90% of U.S. schools</span>
+        <p className="text-[22px]"> Experience in 4+ Startups</p>
+        <h3 className="text-[40px] my-3 font-bold">
+          <span className="text-[#8854c0]">Full Stack Developer </span>
+          Ready to Elevate Your Team
+
+
         </h3>
         <div className="button-container bg-[#8854c0] px-6 py-4 text-white mx-auto rounded-lg border-b-4 border-violet-800 my-6 mx-4 w-1/3">
-          <button className="text-[18px]">Quizizz for schools and districts</button>
+          <button className="text-[18px]">Connect me on Linkedin</button>
         </div>
       </div>
       <div className="flex mx-auto justify-center my-10">

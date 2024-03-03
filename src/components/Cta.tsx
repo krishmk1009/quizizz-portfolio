@@ -11,7 +11,8 @@ const Cta = () => {
         />
       </div>
       <div className="w-[50%]  my-10 pl-5 ml-5">
-        <h1 className="text-[40px] w-5/6 font-bold leading-tight">Bring the fun back to corporate trainings with   <span className="text-[#8854c0]">for quizz work</span>
+        <h1 className="text-[40px] w-5/6 font-bold leading-tight">A MERN stack developer with a passion for Coding
+  <span className="text-[#8854c0]"> & Startups</span>
 </h1>
         <div className="button-container bg-[#8854c0] px-6 py-4 text-white rounded-lg border-b-4 border-violet-800 my-6 w-[60%] mt-5  ">
           <button className="text-[18px]">

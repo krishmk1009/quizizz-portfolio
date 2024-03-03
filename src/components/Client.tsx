@@ -1,6 +1,6 @@
 import React from "react";
 import "./style/Button.css"
-
+import skills from "../assets/skills.png"
 const Client = () => {
   return (
     <div className="my-5">
@@ -8,7 +8,7 @@ const Client = () => {
         <div>
           <img
             className="h-[174px] w-[860px]"
-            src="https://quizizz.com/wf/assets/6501a46f763d217ede2fac83_LOGOs_hidef-p-1080.webp"
+            src={skills}
           />
         </div>
       </div>

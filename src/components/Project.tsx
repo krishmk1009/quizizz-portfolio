@@ -11,23 +11,23 @@ const Project: React.FC = () => {
 
   const imageList: ImageData[] = [
     {
-      heading: "Interactive Lessons",
+      heading: "Freelon",
       content:
-        " Easily embed images and video, import existing slides, and seamlessly blend in assessment.",
+        " Online Salon Booking Platform: Freelon, Led the successful implementation of a salon booking platform in Ahmednagar..",
+      imgUrl:
+        "https://limechat-portfolio.netlify.app/assets/hero-39O4n4UK.png",
+    },
+    {
+      heading: "WhatsGPT",
+      content:
+        " Worked collaboratively as a member of a team of 4 to design and develop a versatile AI chatbot using Node.js, MongoDB, WebApi's",
       imgUrl:
         "https://quizizz.com/wf/assets/64f6d64977ade53deb4d94cd_6333995b5cbe41c32606ffba_Surface_Pro_8_-_13-min-p-800.webp",
     },
     {
-      heading: "Spin the Wheels",
+      heading: "TradingCompass",
       content:
-        " Easily embed images and video, import existing slides, and seamlessly blend in assessment.",
-      imgUrl:
-        "https://quizizz.com/wf/assets/64f6d64977ade53deb4d94cd_6333995b5cbe41c32606ffba_Surface_Pro_8_-_13-min-p-800.webp",
-    },
-    {
-      heading: "Whiteboard",
-      content:
-        " Easily embed images and video, import existing slides, and seamlessly blend in assessment.",
+        " Contributed as a front-end developer to create a user-friendly financial data visualization platform.",
       imgUrl:
         "https://quizizz.com/wf/assets/64f6d6747e97ba27943c2985_6333a5c56094e4553c184ce9_app_14-min-p-800.webp",
     },
@@ -41,7 +41,7 @@ const Project: React.FC = () => {
     <div className="flex max-w-7xl mx-auto my-10">
       <div className="w-[45%]  p-4 mx-5">
         <p className="text-left my-5 text-[18px] text-[#212121]  tracking-widest	font-semibold ">
-          INSTRUCTION
+          PROJECTS
         </p>
         <h2 className=" font-bold text-[56px] mb-4">
           {" "}

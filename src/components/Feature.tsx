@@ -5,8 +5,9 @@ const Feature = () => {
     <div className="max-w-[65rem] mx-auto my-10">
       <div className="flex justify-center text-center my-10">
         <h2 className=" text-[56px] w-2/3 font-bold leading-tight font-poppins ">
-          Trusted by teachers in{" "}
-          <span className="text-[#efa929]">90% of U.S. Schools</span>{" "}
+        Passion for thinking <br />
+
+          <span className="text-[#efa929]"> out of the box</span>{" "}
         </h2>
       </div>
       <div className="grid grid-cols-5 gap-0">
