@@ -4,7 +4,7 @@ const Feature = () => {
   return (
     <div className="max-w-[65rem] mx-auto my-10">
       <div className="flex justify-center text-center my-10">
-        <h2 className=" text-[56px] w-2/3 font-bold leading-tight ">
+        <h2 className=" text-[56px] w-2/3 font-bold leading-tight font-poppins ">
           Trusted by teachers in{" "}
           <span className="text-[#efa929]">90% of U.S. Schools</span>{" "}
         </h2>

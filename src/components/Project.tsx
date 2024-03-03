@@ -7,7 +7,7 @@ interface ImageData {
 }
 
 const Project: React.FC = () => {
-  const [selectedHeading, setSelectedHeading] = useState<string | null>(null);
+  const [selectedHeading, setSelectedHeading] = useState<string | null>("Interactive Lessons");
 
   const imageList: ImageData[] = [
     {
