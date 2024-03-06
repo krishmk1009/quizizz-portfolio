@@ -47,6 +47,7 @@ const Navbar: React.FC = () => {
         </div>
 
         <div></div>
+        
 
         <div className="flex items-center space-x-4">
           <button className="border-2 text-[#5D2057] border-[#f3f3f3] py-2 px-4 rounded-md">

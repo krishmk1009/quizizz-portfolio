@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import whatsgpt from "../assets/whatsgpt.png"
 
 interface ImageData {
   heading: string;
@@ -15,21 +16,21 @@ const Project: React.FC = () => {
       content:
         " Online Salon Booking Platform: Freelon, Led the successful implementation of a salon booking platform in Ahmednagar..",
       imgUrl:
-        "https://limechat-portfolio.netlify.app/assets/hero-39O4n4UK.png",
+        "https://i.ibb.co/JvkDgnQ/freelonimg.png",
     },
     {
       heading: "WhatsGPT",
       content:
         " Worked collaboratively as a member of a team of 4 to design and develop a versatile AI chatbot using Node.js, MongoDB, WebApi's",
       imgUrl:
-        "https://quizizz.com/wf/assets/64f6d64977ade53deb4d94cd_6333995b5cbe41c32606ffba_Surface_Pro_8_-_13-min-p-800.webp",
+        "https://i.ibb.co/cY5ypn0/whatsgpt.png",
     },
     {
       heading: "TradingCompass",
       content:
         " Contributed as a front-end developer to create a user-friendly financial data visualization platform.",
       imgUrl:
-        "https://quizizz.com/wf/assets/64f6d6747e97ba27943c2985_6333a5c56094e4553c184ce9_app_14-min-p-800.webp",
+        "https://i.ibb.co/9q0KykG/tradingc.png",
     },
   ];
 
@@ -45,7 +46,7 @@ const Project: React.FC = () => {
         </p>
         <h2 className=" font-bold text-[56px] mb-4">
           {" "}
-          <span className="text-[#2d9da6]">Beyond</span> quizzes
+          <span className="text-[#2d9da6]">Explore</span> Projects
         </h2>
         <ul>
           {imageList.map((item, index) => (

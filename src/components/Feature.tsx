@@ -1,4 +1,7 @@
 import React from "react";
+import one from "../assets/1.png"
+import two from "../assets/2.png"
+import three from "../assets/3.png"
 
 const Feature = () => {
   return (
@@ -15,11 +18,11 @@ const Feature = () => {
           <div className="text-center">
             <img
               className="h-[120px] mx-auto "
-              src="https://quizizz.com/wf/assets/62fbfabe439c68667fe6896a_VectoriseIcons_MarketingWebsite-04.svg"
+              src={one}
             />
           </div>
           <div className="flex text-center">
-            <p className="text-[20px] my-5">Save teachers 3.5 hrs/week(1)</p>
+            <p className="text-[20px] my-5">Cofounded Startup in 2nd year </p>
           </div>
         </div>
         <div className="  py-10">
@@ -31,10 +34,10 @@ const Feature = () => {
         <div className=" mx-auto  pt-10 mx-5 mt-[4rem]">
           <img
             className="h-[120px] mx-auto"
-            src="https://quizizz.com/wf/assets/62fbfabcdadc300b7afb716e_VectoriseIcons_MarketingWebsite-02.svg"
+            src={two}
           />
             <div className="flex text-center">
-            <p className="text-[20px] my-5">Reduce test-taking anxiety(3)</p>
+            <p className="text-[20px] my-5">Runnner up in Ideathon</p>
           </div>
         </div>
         <div className="   pt-10  ">
@@ -48,11 +51,11 @@ const Feature = () => {
           <div className="text-center">
             <img
               className="h-[120px] mx-auto "
-              src="https://quizizz.com/wf/assets/63067295229d7a743ba690ff_Balloon_Anxiety.svg"
+              src={three}
             />
           </div>
           <div className="flex text-center">
-            <p className="text-[20px] my-5">Reduce test-taking anxiety(3)</p>
+            <p className="text-[20px] my-5">Featured in News Article for product</p>
           </div>
         </div>
       </div>

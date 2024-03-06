@@ -1,5 +1,11 @@
 import React from "react";
 import "./style/Button.css";
+import back from "../assets/back.png"
+import block from "../assets/block.png"
+import dev from "../assets/dev.png"
+import cicd from "../assets/cicd.png"
+import multi from "../assets/multi.png"
+
 
 const Hero = () => {
   return (
@@ -36,44 +42,44 @@ const Hero = () => {
 
         <div className="flex cards text-center max-w-[90%] mx-auto my-6 font-poppins font-bold">
           <div className="w-1/5 bg-[#A8CBEB]  mx-4 rounded-lg ">
-            <h3 className="text-left py-6 px-5 text-black text-[24px]">Math</h3>
+            <h3 className="text-left py-6 px-5 text-black text-[24px]">Backend</h3>
             <img
               className="pl-4"
-              src="https://quizizz.com/wf/assets/657aeb1801fdaf8893523684_Card_Visual.webp"
+              src={back}
             />
           </div>
           <div className="w-1/5 bg-[#74d5dc]  mx-4 rounded-lg ">
-            <h3 className="text-left py-6 px-5 text-black text-[24px]">ELA</h3>
+            <h3 className="text-left py-6 px-5 text-black text-[24px]">Frontend</h3>
             <img
               className="pl-4"
-              src="https://quizizz.com/wf/assets/657aeb18ebabe313508c64f9_Card_Visual-1.webp"
+              src={dev}
             />
           </div>
           <div className="w-1/5 bg-[#f3ce8c]  mx-4 rounded-lg ">
             <h3 className="text-left py-6 px-5 text-black text-[24px]">
-              Science
+              CICD
             </h3>
             <img
               className="pl-4"
-              src="https://quizizz.com/wf/assets/657c1ed6f7f3173090038bce_Card_Visual.webp"
+              src={cicd}
             />
           </div>
           <div className="w-1/5 bg-[#e99baa]  mx-4 rounded-lg ">
             <h3 className="text-left py-6 px-5 text-black text-[24px]">
-              Social Studies
+              Blockchain
             </h3>
             <img
               className="pl-4"
-              src="https://quizizz.com/wf/assets/657aeb186ddc5009843f239f_Card_Visual-3.webp"
+              src={block}
             />
           </div>
           <div className="w-1/5 bg-[#d6b3d3]  mx-4 rounded-lg ">
             <h3 className="text-left py-6 px-5 text-black text-[24px]">
-              Elementary
+              Other Tech
             </h3>
             <img
               className="pl-4"
-              src="https://quizizz.com/wf/assets/657aeb1857b46bc92ea2cf53_Card_Visual-4.webp"
+              src={multi}
             />
           </div>
         </div>
