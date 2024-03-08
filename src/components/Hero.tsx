@@ -40,50 +40,32 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex cards text-center max-w-[90%] mx-auto my-6 font-poppins font-bold">
-          <div className="w-1/5 bg-[#A8CBEB]  mx-4 rounded-lg ">
-            <h3 className="text-left py-6 px-5 text-black text-[24px]">Backend</h3>
-            <img
-              className="pl-4"
-              src={back}
-            />
-          </div>
-          <div className="w-1/5 bg-[#74d5dc]  mx-4 rounded-lg ">
-            <h3 className="text-left py-6 px-5 text-black text-[24px]">Frontend</h3>
-            <img
-              className="pl-4"
-              src={dev}
-            />
-          </div>
-          <div className="w-1/5 bg-[#f3ce8c]  mx-4 rounded-lg ">
-            <h3 className="text-left py-6 px-5 text-black text-[24px]">
-              CICD
-            </h3>
-            <img
-              className="pl-4"
-              src={cicd}
-            />
-          </div>
-          <div className="w-1/5 bg-[#e99baa]  mx-4 rounded-lg ">
-            <h3 className="text-left py-6 px-5 text-black text-[24px]">
-              Blockchain
-            </h3>
-            <img
-              className="pl-4"
-              src={block}
-            />
-          </div>
-          <div className="w-1/5 bg-[#d6b3d3]  mx-4 rounded-lg ">
-            <h3 className="text-left py-6 px-5 text-black text-[24px]">
-              Other Tech
-            </h3>
-            <img
-              className="pl-4"
-              src={multi}
-            />
-          </div>
-        </div>
-      </div>
+        <div className="flex cards-container text-center max-w-[90%] mx-auto my-6 font-poppins font-bold overflow-x-auto">
+  <div className="flex">
+    <div className="md:w-1/5 bg-[#A8CBEB] mx-4 rounded-lg ">
+      <h3 className="text-left py-6 px-5 text-black text-[24px]">Backend</h3>
+      <img className="pl-4" src={back} />
+    </div>
+    <div className="w-1/5 bg-[#74d5dc] mx-4 rounded-lg ">
+      <h3 className="text-left py-6 px-5 text-black text-[24px]">Frontend</h3>
+      <img className="pl-4" src={dev} />
+    </div>
+    <div className="w-1/5 bg-[#f3ce8c] mx-4 rounded-lg ">
+      <h3 className="text-left py-6 px-5 text-black text-[24px]">CICD</h3>
+      <img className="pl-4" src={cicd} />
+    </div>
+    <div className="w-1/5 bg-[#e99baa] mx-4 rounded-lg ">
+      <h3 className="text-left py-6 px-5 text-black text-[24px]">Blockchain</h3>
+      <img className="pl-4" src={block} />
+    </div>
+    <div className="w-1/5 bg-[#d6b3d3] mx-4 rounded-lg ">
+      <h3 className="text-left py-6 px-5 text-black text-[24px]">Other Tech</h3>
+      <img className="pl-4" src={multi} />
+    </div>
+  </div>
+</div>
+
+    </div>
     </div>
   );
 };

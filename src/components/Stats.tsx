@@ -7,40 +7,35 @@ const Stats = () => {
       <div className="max-w-5xl mx-auto">
         <p className="text-[22px]"> Experience in 4+ Startups</p>
         <h3 className="text-[40px] my-3 font-bold">
-          <span className="text-[#8854c0]">Full Stack Developer </span>
+          <span className="text-[#8840c0]">Full Stack Developer </span>
           Ready to Elevate Your Team
 
 
         </h3>
-        <div className="button-container bg-[#8854c0] px-6 py-4 text-white mx-auto rounded-lg border-b-4 border-violet-800 my-6 mx-4 w-1/3">
+        <div className="button-container bg-[#8840c0] px-6 py-4 text-white mx-auto rounded-lg border-b-4 border-violet-800 my-6 mx-4 w-1/3">
           <button className="text-[18px]">Connect me on Linkedin</button>
         </div>
       </div>
       <div className="flex mx-auto justify-center my-10">
         <div className="mx-6">
-          <img className="h-[54px]" src="https://quizizz.com/wf/assets/65b0e029afa8fa3df2ca8a94_Houston_District_Logo.webp" />
+          <img className="h-[40px]" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" />
         </div>
         <div className="mx-6">
-          <img className="h-[54px]" src="https://quizizz.com/wf/assets/65b0e03630244d20476d5b11_Bladen_County_Schools_logo.webp" />
+          <img className="h-[40px]" src="https://dqy38fnwh4fqs.cloudfront.net/website/peerlist-logo-full.svg" />
         </div>
         <div className="mx-6">
-          <img className="h-[54px]" src="https://quizizz.com/wf/assets/65b0e042e1de788afec84f0a_Donna_District_Logo.webp" />
+          <img className="h-[40px]" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/2560px-LinkedIn_Logo.svg.png" />
         </div>
         <div className="mx-6">
-          <img className="h-[54px]" src="https://quizizz.com/wf/assets/65b0e05300d48b1e4ad5a06c_Oxnard_District_Logo.webp" />
+          <img className="h-[40px]" src="https://i.pinimg.com/736x/99/65/5e/99655e9fe24eb0a7ea38de683cedb735.jpg" />
         </div>
         <div className="mx-6">
-          <img className="h-[54px]" src="https://quizizz.com/wf/assets/65b0e0633dd052f0fc653dcf_FWCS_Logo.webp" />
+          <img className="h-[40px]" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Stack_Overflow_logo.svg/1280px-Stack_Overflow_logo.svg.png" />
         </div>
         <div className="mx-6">
-          <img className="h-[54px]" src="https://quizizz.com/wf/assets/65b0e07d9665a36f2534bf53_Raiders_Decatur_Logo.webp" />
+          <img className="h-[40px]" src="https://miro.medium.com/v2/resize:fit:8978/1*s986xIGqhfsN8U--09_AdA.png" />
         </div>
-        <div className="mx-6">
-          <img className="h-[54px]" src="https://quizizz.com/wf/assets/65b0e08e0dd669cbbbe28592_Moose_Logo.webp" />
-        </div>
-        <div className="mx-6">
-          <img className="h-[54px]" src="https://quizizz.com/wf/assets/65b0e029afa8fa3df2ca8a94_Houston_District_Logo.webp" />
-        </div>
+       
         
       </div>
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./style/Button.css"
+import group from "../assets/group.png"
 
 const Cta = () => {
   return (
@@ -7,7 +8,7 @@ const Cta = () => {
       <div className="w-[50%] my-auto pl-5 ml-5">
         <img
           className="h-[200px] "
-          src="https://quizizz.com/wf/assets/64c5f50a4898da1574f4e06b_LogosQFW-p-800.png"
+          src={group}
         />
       </div>
       <div className="w-[50%]  my-10 pl-5 ml-5">
