@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
           <div className="text-xl font-bold">
             <img src="https://quizizz.com/wf/assets/62fa6419161d3a641f681ceb_Logo.svg" alt="Quizizz Logo" />
           </div>
-          <div className="ml-6 space-x-4">
+          <div className="ml-6 space-x-4 md:block hidden">
             <a href="#" className="hover:text-gray-300">
               For Schools
             </a>
@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
         <div></div>
         
 
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-4 md:block hidden">
           <button className="border-2 text-[#5D2057] border-[#f3f3f3] py-2 px-4 rounded-md">
             School Plan Quote
           </button>
@@ -65,6 +65,9 @@ const Navbar: React.FC = () => {
             Linkedin
           </button>
         </div>
+        <button className="md:hidden mr-4 bg-[#9a42a4] text-white py-2 px-4 rounded-md">
+            Linkedin
+          </button>
       </div>
     </nav>
   );

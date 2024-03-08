@@ -6,15 +6,15 @@ const Client = () => {
     <div className="my-5">
       <div className="flex justify-center my-10">
         <div>
-          <img className="h-[174px] w-[860px]" src={skills} />
+          <img className="md:h-[174px] md:w-[860px] pr-4" src={skills} />
         </div>
       </div>
       <p className="text-left text-center my-5 text-[18px] text-[#212121]  tracking-widest	font-semibold ">
           Experience
         </p>
-      <div className="flex max-w-5xl mx-auto">
+      <div className="md:flex max-w-5xl mx-auto px-2">
         
-        <div className="p-5 border-2 border-red-500 h-[340px] w-[320px] rounded-lg relative mx-3">
+        <div className="p-5 my-5 md:my-0 border-2 border-red-500 h-[340px] w-[320px] rounded-lg relative mx-3">
           <div className="flex">
             <img
               className="h-[84px] w-[84px] rounded-lg"
@@ -36,7 +36,7 @@ const Client = () => {
           </div>
           <div className="absolute left-[-8px] bottom-[-8px] border-l-8 border-b-8 border-red-500 h-full w-full pointer-events-none rounded-lg"></div>
         </div>
-        <div className="p-5 border-2 border-blue-500 h-[340px] w-[320px] rounded-lg relative mx-3">
+        <div className="p-5 my-5 md:my-0 border-2 border-blue-500 h-[340px] w-[320px] rounded-lg relative mx-3">
           <div className="flex">
             <img
               className="h-[84px] w-[84px] rounded-lg"
@@ -54,9 +54,9 @@ const Client = () => {
             • Designing and managing the website back-end including database and server integration.
             </p>
           </div>
-          <div className="absolute left-[-8px] bottom-[-8px] border-l-8 border-b-8 border-blue-500 h-full w-full pointer-events-none rounded-lg"></div>
+          <div className="absolute  left-[-8px] bottom-[-8px] border-l-8 border-b-8 border-blue-500 h-full w-full pointer-events-none rounded-lg"></div>
         </div>
-        <div className="p-5 border-2 border-cyan-500 h-[340px] w-[320px] rounded-lg relative mx-3">
+        <div className="p-5 border-2 my-5 md:my-0 border-cyan-500 h-[340px] w-[320px] rounded-lg relative mx-3">
           <div className="flex">
             <img
               className="h-[84px] w-[84px] rounded-lg"

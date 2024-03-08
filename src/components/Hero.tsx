@@ -21,22 +21,22 @@ const Hero = () => {
       ></div>
 
       {/* Content */}
-      <div className="relative z-10">
-        <h1 className="text-[50px] py-5 mt-10 font-poppins font-extrabold	">
+      <div className="relative z-10 ">
+        <h1 className="md:text-[50px] text-[30px] py-5 mr-5 md:mr-5 mt-10 font-poppins font-extrabold	">
           One Person, Countless Skills
         </h1>
-        <p className="text-[22px] font-Quicksand">
+        <p className="md:text-[22px] text-[18px] font-Quicksand mr-5 md:mr-5">
           A Full stack developer application, Presented by Krushna, a 2023
           Computer Science Graduate . &#10024;
         </p>
-        <div className="flex justify-center my-4">
-          <div className=" button-container bg-[#8854c0] px-6 py-2 text-white text-left rounded-lg border-b-4 border-violet-800 my-4 mx-4 w-48">
-            <p className="text-gray-300 text-sm font-poppins">RESUME</p>
+        <div className="md:flex   justify-center my-4">
+          <div className="mx-auto button-container bg-[#8854c0] px-6 py-2 text-white text-left rounded-lg border-b-4 border-violet-800 my-4 md:mx-4 md:w-48 w-2/3 ">
+            <p className="text-gray-300 md:text-sm font-poppins">RESUME</p>
             <button className="text-lg font-Quicksand">Download CV</button>
           </div>
-          <div className=" button-container bg-[#F2F2F2] px-6 py-2 text-black text-left rounded-lg border-b-4 border-gray-300 my-4 mx-4 w-48">
-            <p className="text-[#8854c0] text-sm font-poppins">PROFILE</p>
-            <button className="text-lg font-Quicksand">Github Profile</button>
+          <div className="mx-auto button-container bg-[#F2F2F2] px-6 py-2 text-black text-left rounded-lg border-b-4 border-gray-300 my-4 md:mx-4 md:w-48 w-2/3">
+            <p className="text-[#8854c0] md:text-sm font-poppins">PROFILE</p>
+            <button className=" text-lg font-Quicksand">Github Profile</button>
           </div>
         </div>
 
