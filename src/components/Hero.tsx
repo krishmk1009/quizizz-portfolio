@@ -1,4 +1,3 @@
-import React from "react";
 import "./style/Button.css";
 import back from "../assets/back.png"
 import block from "../assets/block.png"

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import whatsgpt from "../assets/whatsgpt.png";
 
 interface ImageData {
   heading: string;

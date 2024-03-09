@@ -1,4 +1,3 @@
-import React from "react";
 import "./style/Button.css";
 import skills from "../assets/skills.png";
 const Client = () => {
