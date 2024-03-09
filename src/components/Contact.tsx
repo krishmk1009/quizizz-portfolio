@@ -13,7 +13,7 @@ const Contact = () => {
             Excited to Contribute at
             <span className="text-[#efa929]"> Quizizz.</span>
           </h1>
-          <div className="flex md:justify-left justify-center my-4 mx-2 ">
+          <div className="flex   md:justify-left my-4 mx-2 ">
             <a href="mailto:krushnamk1009@gmail.com">
               <div className=" button-container bg-[#efa929] px-6 py-2 text-white text-left rounded-lg border-b-4 border-[#a97b26] my-4 mx-1 md:mx-0  md:mr-4 w-36 md:w-44">
                 <p className="text-gray-300 text-sm">INFORMATION</p>
