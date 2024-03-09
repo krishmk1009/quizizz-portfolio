@@ -31,14 +31,21 @@ const Hero = () => {
         </p>
         <div className="md:flex   justify-center my-4">
           <div className="mx-auto button-container bg-[#8854c0] px-6 py-2 text-white text-left rounded-lg border-b-4 border-violet-800 my-4 md:mx-4 md:w-48 w-2/3 ">
+            <a href="https://drive.google.com/file/d/1GbfgzxUzoQ-GbxLZTAZxlU3zN9SjiafR/view" target="blank">
             <p className="text-gray-300 md:text-sm font-poppins">RESUME</p>
             <button className="text-lg font-Quicksand">Download CV</button>
+            </a>
           </div>
+
           <div className="mx-auto button-container bg-[#F2F2F2] px-6 py-2 text-black text-left rounded-lg border-b-4 border-gray-300 my-4 md:mx-4 md:w-48 w-2/3">
+            <a href="https://github.com/krishmk1009" target="blank">
+
             <p className="text-[#8854c0] md:text-sm font-poppins">PROFILE</p>
             <button className=" text-lg font-Quicksand">Github Profile</button>
+            </a>
           </div>
         </div>
+          
 
         <div className="flex cards-container text-center md:max-w-[90%] mx-auto my-6 font-poppins font-bold overflow-x-auto">
   <div className="flex">

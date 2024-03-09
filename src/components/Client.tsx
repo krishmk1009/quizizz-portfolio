@@ -6,7 +6,7 @@ const Client = () => {
     <div className="my-5">
       <div className="flex justify-center my-10">
         <div>
-          <img className="md:h-[174px] md:w-[860px] pr-4" src={skills} />
+          <img className="md:h-[140px] md:w-[700px] md:pr-4" src={skills} />
         </div>
       </div>
       <p className="text-left text-center my-5 text-[18px] text-[#212121]  tracking-widest	font-semibold ">

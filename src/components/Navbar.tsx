@@ -57,13 +57,18 @@ const Navbar: React.FC = () => {
           <button className="border-2 text-[#5D2057] border-gray-300 border-[#f3f3f3] py-2 px-4 rounded-md">
             Enter Code
           </button>
-
+          <a href="https://github.com/krishmk1009" target="blank">
           <button className="bg-[#EdE6f6] text-[#5D2057] text-[16px] py-2 px-4 rounded-md">
             Github
           </button>
+          </a>
+<a href="https://www.linkedin.com/in/krushnamodhave/" target="blank">
+
           <button className="bg-[#9a42a4] text-white py-2 px-4 rounded-md">
             Linkedin
           </button>
+</a>
+          
         </div>
         <button className="md:hidden mr-4 bg-[#9a42a4] text-white py-2 px-4 rounded-md">
             Linkedin
