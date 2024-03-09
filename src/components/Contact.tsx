@@ -13,22 +13,18 @@ const Contact = () => {
             Excited to Contribute at
             <span className="text-[#efa929]"> Quizizz.</span>
           </h1>
-          <div className="flex justify-left my-4 mx-2">
+          <div className="flex md:justify-left justify-center my-4 mx-2 ">
             <a href="mailto:krushnamk1009@gmail.com">
-
-          
-            <div className=" button-container bg-[#efa929] px-6 py-2 text-white text-left rounded-lg border-b-4 border-[#a97b26] my-4 mx-1 md:mx-0  md:mr-4 w-48">
-              <p className="text-gray-300 text-sm">INFORMATION</p>
-              <button className="text-lg">Contact Me</button>
-            </div>
+              <div className=" button-container bg-[#efa929] px-6 py-2 text-white text-left rounded-lg border-b-4 border-[#a97b26] my-4 mx-1 md:mx-0  md:mr-4 w-36 md:w-44">
+                <p className="text-gray-300 text-sm">INFORMATION</p>
+                <button className="text-lg">Contact Me</button>
+              </div>
             </a>
             <a href="https://github.com/krishmk1009" target="blank">
-
-           
-            <div className="button-container bg-[#F2F2F2] px-6 py-2 text-black text-left rounded-lg border-b-4 border-gray-300 my-4  mx-1 md:mx-0 md:ml-4 w-48">
-              <p className="text-[#8854c0] text-sm">SOCIAL</p>
-              <button className="button text-lg">GITHUB</button>
-            </div>
+              <div className="button-container  bg-[#F2F2F2] px-6 py-2 text-black text-left rounded-lg border-b-4 border-gray-300 my-4  mx-1 md:mx-0 md:ml-4 w-36 md:w-44">
+                <p className="text-[#8854c0] text-sm">SOCIAL</p>
+                <button className="button text-lg">GITHUB</button>
+              </div>
             </a>
           </div>
         </div>
