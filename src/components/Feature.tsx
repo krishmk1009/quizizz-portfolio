@@ -5,9 +5,9 @@ import three from "../assets/3.png"
 
 const Feature = () => {
   return (
-    <div className="max-w-[65rem] mx-auto my-10">
+    <div className="max-w-[65rem] mx-auto my-10 px-5 mx-5">
       <div className="flex justify-center text-center my-10">
-        <h2 className=" text-[56px] w-2/3 font-bold leading-tight font-poppins ">
+        <h2 className=" md:text-[56px]  text-[30px] md:w-2/3 font-bold leading-tight font-poppins ">
         Passion for thinking <br />
 
           <span className="text-[#efa929]"> out of the box</span>{" "}
@@ -17,12 +17,12 @@ const Feature = () => {
         <div className="py-4 mx-auto">
           <div className="text-center">
             <img
-              className="h-[120px] mx-auto "
+              className="md:h-[120px] h-[50px] mx-auto "
               src={one}
             />
           </div>
           <div className="flex text-center">
-            <p className="text-[20px] my-5">Cofounded Startup in 2nd year </p>
+            <p className="md:text-[20px] text-[15px] my-5">Cofounded Startup in 2nd year </p>
           </div>
         </div>
         <div className="  py-10">
@@ -33,11 +33,11 @@ const Feature = () => {
         </div>
         <div className=" mx-auto  pt-10 mx-5 mt-[4rem]">
           <img
-            className="h-[120px] mx-auto"
+            className="md:h-[120px] h-[50px] mx-auto"
             src={two}
           />
             <div className="flex text-center">
-            <p className="text-[20px] my-5">Runnner up in Ideathon</p>
+            <p className="md:text-[20px] text-[15px] my-5">Runnner up in Ideathon</p>
           </div>
         </div>
         <div className="   pt-10  ">
@@ -50,12 +50,12 @@ const Feature = () => {
         <div className="py-4 mx-auto">
           <div className="text-center">
             <img
-              className="h-[120px] mx-auto "
+              className="md:h-[120px] h-[50px] mx-auto "
               src={three}
             />
           </div>
           <div className="flex text-center">
-            <p className="text-[20px] my-5">Featured in News Article for product</p>
+            <p className="md:text-[20px] text-[15px] my-5">Featured in News Article for product</p>
           </div>
         </div>
       </div>

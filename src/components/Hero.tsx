@@ -22,10 +22,10 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 ">
-        <h1 className="md:text-[50px] text-[30px] py-5 mr-5 md:mr-5 mt-10 font-poppins font-extrabold	">
+        <h1 className="md:text-[50px] text-[30px] py-5 px-4 md:px-0  md:mr-5 md:mt-10 font-poppins font-extrabold	">
           One Person, Countless Skills
         </h1>
-        <p className="md:text-[22px] text-[18px] font-Quicksand mr-5 md:mr-5">
+        <p className="md:text-[22px] text-[18px] px-4 md:px-0 font-Quicksand  md:mr-5">
           A Full stack developer application, Presented by Krushna, a 2023
           Computer Science Graduate . &#10024;
         </p>
@@ -40,27 +40,28 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex cards-container text-center max-w-[90%] mx-auto my-6 font-poppins font-bold overflow-x-auto">
+        <div className="flex cards-container text-center md:max-w-[90%] mx-auto my-6 font-poppins font-bold overflow-x-auto">
   <div className="flex">
-    <div className="md:w-1/5 bg-[#A8CBEB] mx-4 rounded-lg ">
+    <div className="md:w-1/5 h-fit bg-[#A8CBEB] md:mx-4 mx-5 rounded-lg ">
       <h3 className="text-left py-6 px-5 text-black text-[24px]">Backend</h3>
-      <img className="pl-4" src={back} />
+      <img className="md:pl-4 pl-2" src={back} />
     </div>
-    <div className="w-1/5 bg-[#74d5dc] mx-4 rounded-lg ">
+    <div className="md:w-1/5 bg-[#74d5dc] md:mx-4 mx-5 rounded-lg ">
       <h3 className="text-left py-6 px-5 text-black text-[24px]">Frontend</h3>
-      <img className="pl-4" src={dev} />
+      <img className="md:pl-4 pl-2" src={dev} />
     </div>
-    <div className="w-1/5 bg-[#f3ce8c] mx-4 rounded-lg ">
+   
+    <div className="md:w-1/5 bg-[#f3ce8c] md:mx-4 hidden md:block mx-2 rounded-lg ">
       <h3 className="text-left py-6 px-5 text-black text-[24px]">CICD</h3>
-      <img className="pl-4" src={cicd} />
+      <img className="md:pl-4 pl-2" src={cicd} />
     </div>
-    <div className="w-1/5 bg-[#e99baa] mx-4 rounded-lg ">
-      <h3 className="text-left py-6 px-5 text-black text-[24px]">Blockchain</h3>
-      <img className="pl-4" src={block} />
+    <div className="md:w-1/5 h-fit bg-[#e99baa] md:mx-4 mx-5   rounded-lg ">
+      <h3 className="text-left py-6 px-5 text-black md:text-[24px] text-[20px]">Blockchain</h3>
+      <img className="md:pl-4 pl-2" src={block} />
     </div>
-    <div className="w-1/5 bg-[#d6b3d3] mx-4 rounded-lg ">
+    <div className="md:w-1/5 bg-[#d6b3d3] md:mx-4  mx-5 hidden md:block rounded-lg ">
       <h3 className="text-left py-6 px-5 text-black text-[24px]">Other Tech</h3>
-      <img className="pl-4" src={multi} />
+      <img className="md:pl-4 pl-2" src={multi} />
     </div>
   </div>
 </div>
